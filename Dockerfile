@@ -2,7 +2,7 @@ FROM tomcat:11.0.4-jdk17-temurin
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY Register.war /usr/local/tomcat/webapps/ROOT.war
+COPY Login.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
